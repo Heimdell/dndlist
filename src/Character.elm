@@ -19,6 +19,11 @@ import View exposing (vcat)
 import Html
 import Browser exposing (element)
 
+{-
+  Mother-of-god.jpg
+
+  Character model. Has name, [edit] toggle, level and attributes (w/skills).
+-}
 type alias Model = Named.Model (Pair.Model InputFlag.Model (Pair.Model InputCounter.Model (List.Model Attribute.Model)))
 type alias Msg   = Named.Msg   (Pair.Msg   InputFlag.Msg   (Pair.Msg   InputCounter.Msg   (List.Msg   Attribute.Msg  )))
 

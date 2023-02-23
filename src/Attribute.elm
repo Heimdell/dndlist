@@ -19,6 +19,9 @@ import Browser exposing (element)
 import Data.Either exposing (Either(..))
 import OutputCounter
 
+{-
+  Attribute w/skills.
+-}
 type alias Model = Pair.Model (Named.Model InputCounter.Model) (List.Model Skill.Model)
 type alias Msg   = Pair.Msg   (Named.Msg   InputCounter.Msg  ) (List.Msg   Skill.Msg  )
 

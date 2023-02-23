@@ -5,6 +5,9 @@ import Html exposing (..)
 import Html.Events exposing (onClick)
 -- import Browser exposing (element)
 
+{-
+  Togglable flag.
+-}
 type alias Model = Bool
 
 type Msg = Click

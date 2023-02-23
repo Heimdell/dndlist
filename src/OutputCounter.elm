@@ -4,6 +4,10 @@ import View exposing (View)
 import Html exposing (text)
 import Debug exposing (toString)
 
+{-
+  Most useless component eval, literally a number.
+-}
+
 type alias Model = Int
 
 type Msg = None

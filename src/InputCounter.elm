@@ -6,6 +6,9 @@ import Html.Events exposing (onClick)
 import Debug exposing (toString)
 import List exposing (concat)
 
+{-
+  Counter input. Can be disabled at view.
+-}
 type alias Model = Int
 
 type Msg
